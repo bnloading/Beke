@@ -69,7 +69,7 @@ const CalendarPage = () => {
           </div>
 
           <div className="text-2xl mt-8 text-gray-800 font-semibold">
-            Сағат 12:00 - де басталады
+            Сағат 10:00 - де басталады
           </div>
         </div>
       </div>

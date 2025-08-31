@@ -89,7 +89,7 @@ const LocationDetails = () => {
               06.09.2025
             </AnimatedText>
             <AnimatedText className="text-xl text-gray-800">
-              12:00 САҒАТТА
+              10:00 САҒАТТА
             </AnimatedText>
           </motion.div>
 

@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+@font-face {
+  font-family: "KZAmour";
+  src: url("../public/KZ_Mon_Amour_One.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+@font-face {
+  font-family: "KZMon";
+  src: url("../public/KZ_Rapier_LET.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "KZRosaMarena";
+  src: url("../public/KZ_Mon_Amour_One.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "CustomFont";
+  src: url("./assets/Ante.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "justanotherfont";
+  src: url("./assets/Ante.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "CustomFont", serif;
+}
+
+/* Add these viewport height fixes */
+html,
+body {
+  min-height: -webkit-fill-available;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+/* Prevent overflow issues on mobile */
+.overflow-hidden {
+  overflow-x: hidden;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.font-serif {
+  font-family: "Playfair Display", serif;
+}
+
+.font-kzamour {
+  font-family: "KZAmour", serif;
+}
+
+.font-kzmon {
+  font-family: "KZMon", serif;
+}
+
+.font-kzrosa {
+  font-family: "KZRosaMarena", serif;
+}
+
+.font-ante {
+  font-family: "KZAnteFont", serif;
+}
+
+.custom-font {
+  font-family: "CustomFont", serif;
+}
+
+/* Optional: Add subtle animation for button hover */
+button {
+  transition: all 0.3s ease;
+}
